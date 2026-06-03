@@ -159,26 +159,6 @@ enrollButtons.forEach(button=>{
 
 });
 
-// Enroll Buttons
-
-const enrollButtons =
-document.querySelectorAll(".course-card .btn");
-
-enrollButtons.forEach(button=>{
-
-    button.addEventListener("click",(e)=>{
-
-        e.preventDefault();
-
-        alert(
-            "Course enrolled successfully!"
-        );
-
-    });
-
-});
-
-
 // Welcome Message
 
 window.addEventListener("load",()=>{
